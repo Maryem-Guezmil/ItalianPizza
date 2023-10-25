@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*!important" property is used to give a certain style priority over any other styles that may conflict with it. */
+.nav-link {
+  color: green !important;
+}
+
+.nav-link-ad {
+  color: white !important;
+
+}
+
+.nav {
+  color: white !important;
+
+}
+
+.navbarAdmin {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 8px;
+  height: 40px;
+  background-color: white;
+}
+
+
+.navbar-brand {
+  color: green !important;
+
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.img-fluid {
+  height: 200px !important;
+  width: 220px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn {
+  background-color: rgb(3, 95, 3) !important;
+  color: white !important;
+}
+
+select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.pizza-modify {
+  box-shadow: none !important;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20% !important;
+
+}
+
+.input-add {
+  width: 100% !important;
+  height: 35px !important;
+  border-radius: 5px !important;
+  border: 1px solid black !important;
+  margin-bottom: 10px !important;
+}
+
+.table-head {
+  background-color: black !important;
+  color: white;
+  justify-content: center;
+
+}
+
+thead {
+  font-size: 12px;
+  height: 40px;
+  background-color: white;
+
+}
+
+.table {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 100% !important;
+}
+
+.table2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 40% !important;
+}
+
+.table3 {
+  margin-left: 20%;
+  margin-right: 10%;
+  width: 60% !important;
+}
+
+
+.searchBar {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.esmPizza {
+  font-weight: bold !important;
+}
+
+.disp {
+  display: flex !important;
+}
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+
+input:invalid[focused="true"]~span {
+  display: block;
+}
